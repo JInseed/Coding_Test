@@ -1,3 +1,3 @@
 def solution(array):
     array.sort()
-    return array[int((len(array) - 1)/2)]
+    return array[int((len(array))//2)]
