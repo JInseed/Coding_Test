@@ -8,3 +8,10 @@ def solution(rsp):
         else:
             answer+='2'
     return answer
+
+# def solution(rsp):
+#     d = {'0':'5','2':'0','5':'2'}
+#     return ''.join(d[i] for i in rsp)
+
+# def solution(rsp):
+#     return rsp.translate(str.maketrans('025', '502'))
