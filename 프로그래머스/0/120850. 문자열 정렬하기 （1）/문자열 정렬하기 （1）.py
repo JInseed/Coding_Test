@@ -5,5 +5,4 @@ def solution(my_string):
             answer.append(int(i))
         except:
             pass
-    answer.sort()
-    return answer
+    return sorted(answer)
