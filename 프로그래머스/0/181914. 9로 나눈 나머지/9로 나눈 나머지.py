@@ -1,2 +1,2 @@
 def solution(number):
-    return sum(map(lambda x: int(x), list(number)))%9
+    return sum(map(int, number)) % 9
